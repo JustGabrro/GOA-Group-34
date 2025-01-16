@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #ffcc80;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.game-interface {
+    text-align: center;
+    margin: 20px;
+}
+
+.actions button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background: #4caf50;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.actions button:hover {
+    background: #45a049;
+}
+
+.results {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.scoreboard p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.game-history {
+    margin: 20px;
+    text-align: center;
+}
+
+#toggle-history {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#toggle-history:hover {
+    background: #1976d2;
+}
+
+#history-container.hidden {
+    display: none;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history-list li {
+    margin: 5px 0;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+#history-list li.win {
+    background: #c8e6c9;
+}
+
+#history-list li.loss {
+    background: #ffcdd2;
+}
+
+#history-list li.draw {
+    background: #e0e0e0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #ffcc80;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

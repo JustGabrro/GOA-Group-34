@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazelle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Play Against the Gazelle</h1>
+        <p>Can you outsmart the gazelle?</p>
+    </header>
+    <main>
+        <section class="game-interface">
+            <div class="actions">
+                <button data-action="Attack">Attack</button>
+                <button data-action="Defend">Defend</button>
+                <button data-action="Run">Run</button>
+            </div>
+            <div class="results">
+                <p id="game-result">Choose an action to start playing!</p>
+            </div>
+            <div class="scoreboard">
+                <p>Wins: <span id="wins">0</span></p>
+                <p>Losses: <span id="losses">0</span></p>
+                <p>Draws: <span id="draws">0</span></p>
+            </div>
+        </section>
+        <aside class="game-history">
+            <button id="toggle-history">Show Game History</button>
+            <div id="history-container" class="hidden">
+                <h2>Game History</h2>
+                <ul id="history-list"></ul>
+                <button id="reset-history">Clear History</button>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gazelle Game. All rights reserved. By Gabriel</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

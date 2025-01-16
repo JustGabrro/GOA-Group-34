@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.card{
+    width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 15px 20px 10px rgba(37,43,70, 0.1);
+}
+.community{
+    padding: 40px;
+    
+}
+h2{
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 25px;
+    opacity: 0.9;
+}
+.community h3{
+    font-weight: bold;
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 16px;
+    opacity: 0.9;
+}
+.community p{
+    color: hsl(218, 22%, 67%);
+    line-height: 30px;
+    opacity: 0.7;
+}
+.plan{
+    display: flex;
+}
+.sub{
+    padding: 40px;
+    background-color: hsl(179, 62%, 43%);
+    color: #fff;
+}
+.sub h3{
+    padding-bottom: 20px;
+    opacity: 0.9;
+}
+.price{
+    display: inline-flex !important;
+}
+.price-p{
+    padding: 8px 0px 0px 12px;
+    opacity: 0.5;
+}
+.access{
+    padding: 10px 0px 20px 0px;
+    opacity: 0.8;
+}
+button{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    border: none;
+}
+.why{
+    padding: 40px;
+    background-color: hsl(179, 62%, 43%);
+    opacity: 0.8;
+    color: #fff;
+}
+.why h3{
+    padding-bottom: 20px;
+    opacity: 0.9 !important;
+}
+li{
+    padding-bottom: 3px;
+    font-size: 16px;
+    opacity: 0.6;
+}
+@media (min-width:768px){
+    .why,.sub{
+        width: 50%;
+    }
+}
+@media (max-width:768px){
+    .card{
+        width: 90%;
+        margin-top: 40px;
+    }
+    .plan{
+        display: flex;
+        flex-direction: column;
+    }
+    .community {
+        padding-right: 20px;
+    }
+    .why,.sub{
+        width: 100%;
+    }
+}
