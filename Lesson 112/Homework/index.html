@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Book Information</h1>
+    </header>
+    <main>
+        <section id="adventure" class="book-section">
+            <h2>Adventure Books</h2>
+            <div id="adventure-details"></div>
+            <input type="number" id="adventure-discount" placeholder="Enter Discount (%)">
+            <button onclick="applyDiscount('adventure')">Apply Discount</button>
+        </section>
+        <section id="satire" class="book-section">
+            <h2>Satire Books</h2>
+            <div id="satire-details"></div>
+            <input type="number" id="satire-discount" placeholder="Enter Discount (%)">
+            <button onclick="applyDiscount('satire')">Apply Discount</button>
+        </section>
+        <section id="fantasy" class="book-section">
+            <h2>Fantasy Books</h2>
+            <div id="fantasy-details"></div>
+            <input type="number" id="fantasy-discount" placeholder="Enter Discount (%)">
+            <button onclick="applyDiscount('fantasy')">Apply Discount</button>
+        </section>
+    </main>
+    <footer>
+        <p>Book Information Website &copy; 2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
