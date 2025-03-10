@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.checkbox-group {
+    margin: 20px 0;
+}
+
+input[type="radio"] {
+    margin: 0 10px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#image-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#animal-image {
+    
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#error-message {
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
